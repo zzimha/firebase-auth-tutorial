@@ -39,7 +39,7 @@ function Login() {
           className="login__btn"
           onClick={() => logInWithEmailAndPassword(email, password)}
         >
-          Login
+          Login Now
         </button>
         <button className="login__btn login__google" onClick={signInWithGoogle}>
           Login with Google
